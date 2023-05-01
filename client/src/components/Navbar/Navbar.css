@@ -1,0 +1,52 @@
+
+
+.limbogram{
+    
+    font-family: 'Dancing Script', cursive;
+    font-size:40px;
+}
+
+.bottomNav{
+    visibility: hidden;
+}
+
+
+
+.NavBar{
+    z-index: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 660px)  {
+    .limbogram{
+        font-size: 30px;
+
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .bottomNav{
+        visibility: visible;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+}
+
+.setCard{
+    width: 200px;
+    max-height: 300px;
+}
+
+.setButtonVisibility{
+    visibility: hidden;
+}
+
+@media screen and (max-width:1321px){
+    .setButtonVisibility{
+        visibility: visible;
+    }
+}
+

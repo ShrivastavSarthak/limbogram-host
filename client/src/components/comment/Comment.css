@@ -1,0 +1,46 @@
+.layout{
+    width: 300px;
+    height: 550px;
+}
+
+@media screen and (max-width: 420px) {
+    .layout{
+        width: 300px;
+        height: 450px;
+    }
+    
+}
+
+.title{
+    float: left;
+    top: 0;
+}
+
+
+.CommentCard{
+    display: flex;
+    overflow: initial;
+    
+}
+
+
+
+.show{
+    z-index: 1;
+}
+
+.hideCard{
+    overflow-y: auto;
+    height: 417px;
+}
+
+@media screen and (max-width: 420px) {
+    .hideCard{
+        overflow-y: auto;
+        height: 323px;
+    }
+}
+
+.hideCard::-webkit-scrollbar{
+    display: none;
+}

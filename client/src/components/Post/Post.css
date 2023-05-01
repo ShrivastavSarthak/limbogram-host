@@ -1,0 +1,20 @@
+.InputArea{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.layout1{
+    width: 800px;
+    height: 450px;
+}
+
+.textHere{
+    width: 600px;
+}
+
+.buttonSize{
+    max-width: 40px;
+    float: right;
+}

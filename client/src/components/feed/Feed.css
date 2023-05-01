@@ -1,0 +1,33 @@
+.cardbox{
+    max-width: 700px;
+    top: 0;
+    
+    
+}
+
+.cardArea{
+    margin-left: 357px;
+}
+
+
+@media screen and (max-width:766px) {
+    .cardbox{
+        width: 100%;
+        top: 0;
+    }
+    .cardArea{
+        margin-left: 0px;
+    }
+}
+
+.maxImage{
+    max-width: 700px;
+    max-height: 700px;
+}
+
+
+.ImageBox{
+    max-width: 100%;
+    height: auto;
+}
+
